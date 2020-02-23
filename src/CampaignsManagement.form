@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CampaignsManagement">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="173" y="120" width="960" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-14402239"/>
+      <minimumSize width="960" height="720"/>
+      <preferredSize width="960" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="1aabc" binding="campaignsPane">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <font size="14"/>
+          <foreground color="-4517105"/>
+          <minimumSize width="960" height="720"/>
+          <opaque value="true"/>
+          <preferredSize width="960" height="720"/>
+          <tabPlacement value="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="12f37" binding="showCampaignsPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Show campaign"/>
+            </constraints>
+            <properties>
+              <background color="-14402239"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d8c0c" class="javax.swing.JLabel" binding="insertCampaignIdLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="30" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Insert campaign id:"/>
+                </properties>
+              </component>
+              <component id="85eb9" class="javax.swing.JButton" binding="showCampaignButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="50" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <text value="Show campaign"/>
+                </properties>
+              </component>
+              <component id="b3746" class="javax.swing.JTextField" binding="campaignIdTextField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="30" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="1e4b" class="javax.swing.JLabel" binding="campaignIdLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Id:"/>
+                </properties>
+              </component>
+              <component id="f1949" class="javax.swing.JTextField" binding="campaignIdTF">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="f868c" class="javax.swing.JTextField" binding="campaignNameTF">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                </properties>
+              </component>
+              <component id="70067" class="javax.swing.JTextField" binding="campaignDescriptionTF">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                </properties>
+              </component>
+              <component id="23135" class="javax.swing.JTextField" binding="campaignStartTF">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                </properties>
+              </component>
+              <component id="33c85" class="javax.swing.JTextField" binding="campaignEndTF">
+                <constraints>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                </properties>
+              </component>
+              <component id="b89b0" class="javax.swing.JTextField" binding="campaignBudgetTF">
+                <constraints>
+                  <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                </properties>
+              </component>
+              <component id="195f0" class="javax.swing.JTextField" binding="campaignStrategyTF">
+                <constraints>
+                  <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                </properties>
+              </component>
+              <component id="fb288" class="javax.swing.JLabel" binding="campaignNameLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Name:"/>
+                </properties>
+              </component>
+              <component id="8e299" class="javax.swing.JLabel" binding="campaignDescriptionLabel">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Description:"/>
+                </properties>
+              </component>
+              <component id="1122b" class="javax.swing.JLabel" binding="campaignStartLabel">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Start date:"/>
+                </properties>
+              </component>
+              <component id="75b74" class="javax.swing.JLabel" binding="campaignEndLabel">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="End date:"/>
+                </properties>
+              </component>
+              <component id="384a4" class="javax.swing.JLabel" binding="campaignBudgetLabel">
+                <constraints>
+                  <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Budget:"/>
+                </properties>
+              </component>
+              <component id="2e606" class="javax.swing.JLabel" binding="campaignStrategyLabel">
+                <constraints>
+                  <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Strategy type:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ff657" binding="addCampaignPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Add campaign"/>
+            </constraints>
+            <properties>
+              <background color="-14402239"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="862e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="30" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Insert campaign details:"/>
+                </properties>
+              </component>
+              <component id="6605b" class="javax.swing.JButton" binding="addCampaignButton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <text value="Add campaign"/>
+                </properties>
+              </component>
+              <component id="cbe81" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Id:"/>
+                </properties>
+              </component>
+              <component id="c6d26" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Name:"/>
+                </properties>
+              </component>
+              <component id="b97a2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Description:"/>
+                </properties>
+              </component>
+              <component id="b44c1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Start date:"/>
+                </properties>
+              </component>
+              <component id="90541" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="End date:"/>
+                </properties>
+              </component>
+              <component id="9658d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Budget:"/>
+                </properties>
+              </component>
+              <component id="ebe83" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Strategy type:"/>
+                </properties>
+              </component>
+              <component id="fa0f8" class="javax.swing.JTextField" binding="campaignIDAdd">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="9b48" class="javax.swing.JTextField" binding="campaignNameAdd">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="8a66d" class="javax.swing.JTextField" binding="campaignDescriptionAdd">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="790de" class="javax.swing.JTextField" binding="campaignStartAdd">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="28844" class="javax.swing.JTextField" binding="campaignEndAdd">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="bbf8c" class="javax.swing.JTextField" binding="campaignBudgetAdd">
+                <constraints>
+                  <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="c23bd" class="javax.swing.JTextField" binding="campaignStrategyAdd">
+                <constraints>
+                  <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="b405a" class="javax.swing.JLabel" binding="campaignExistsLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="70" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <foreground color="-4517105"/>
+                  <text value="Campaign already exists"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="fc89d" binding="editCampaignPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Edit campaign"/>
+            </constraints>
+            <properties>
+              <background color="-14402239"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="131cb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="30" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Insert campaign details:"/>
+                </properties>
+              </component>
+              <component id="66601" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Id:"/>
+                </properties>
+              </component>
+              <component id="2051f" class="javax.swing.JTextField" binding="idEditTF">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="90dc2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Name:"/>
+                </properties>
+              </component>
+              <component id="1544" class="javax.swing.JTextField" binding="nameEditTF">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="626d9" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Description:"/>
+                </properties>
+              </component>
+              <component id="bca59" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Start date:"/>
+                </properties>
+              </component>
+              <component id="d36fa" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="End date:"/>
+                </properties>
+              </component>
+              <component id="b4952" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Budget:"/>
+                </properties>
+              </component>
+              <component id="d1654" class="javax.swing.JTextField" binding="descriptionEditTF">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="91d4c" class="javax.swing.JTextField" binding="startDateEditTF">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="9d35d" class="javax.swing.JTextField" binding="endDateEditTF">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="e069f" class="javax.swing.JTextField" binding="budgetEditTF">
+                <constraints>
+                  <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="be801" class="javax.swing.JButton" binding="editCampaignButton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="98" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <text value="Edit campaign"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="27ef4" binding="closeCampaignPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Close campaign"/>
+            </constraints>
+            <properties>
+              <background color="-14402239"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5acee" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="30" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Insert campaign id:"/>
+                </properties>
+              </component>
+              <component id="f225e" class="javax.swing.JTextField" binding="insertCampaignIDTF">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="30" right="10" weightx="0.0" weighty="0.0" ipadx="80"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="96156" class="javax.swing.JButton" binding="closeCampaignButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="50" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <text value="Close campaign"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="25888" binding="viewCampaignsPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="View campaigns"/>
+            </constraints>
+            <properties>
+              <background color="-14402239"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a5d86" class="javax.swing.JTable" binding="campaignsTable">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.1" weighty="0.1"/>
+                </constraints>
+                <properties>
+                  <background color="-14402239"/>
+                  <font name="Lucida Sans Unicode" size="15"/>
+                  <foreground color="-1"/>
+                  <gridColor color="-4517105"/>
+                </properties>
+              </component>
+              <component id="4dabe" class="javax.swing.JLabel" binding="sortByLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Sort by:"/>
+                </properties>
+              </component>
+              <component id="c33da" class="javax.swing.JButton" binding="sortNameAscButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <font name="Lucida Sans Unicode" size="12"/>
+                  <text value="Name (Asc)"/>
+                </properties>
+              </component>
+              <component id="f8b86" class="javax.swing.JButton" binding="sortAscButton">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <font name="Lucida Sans Unicode" size="12"/>
+                  <text value="Time (Asc)"/>
+                </properties>
+              </component>
+              <component id="97b3c" class="javax.swing.JButton" binding="sortDescButton">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <font name="Lucida Sans Unicode" size="12"/>
+                  <text value="Time (Desc)"/>
+                </properties>
+              </component>
+              <component id="85525" class="javax.swing.JButton" binding="sortNameDescButton">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <font name="Lucida Sans Unicode" size="12"/>
+                  <text value="Name (Desc)"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c12ac" binding="goBackPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Back"/>
+            </constraints>
+            <properties>
+              <background color="-14402239"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="bc522" class="javax.swing.JButton" binding="goBackButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0" ipadx="120" ipady="80"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="24"/>
+                  <text value="Go back"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

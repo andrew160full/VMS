@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainMenu">
+  <grid id="27dc6" binding="panel1" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="150" y="130" width="640" height="480"/>
+    </constraints>
+    <properties>
+      <background color="-14402239"/>
+      <minimumSize width="640" height="480"/>
+      <preferredSize width="640" height="480"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1d583" class="javax.swing.JButton" binding="campaignsButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="40" bottom="200" right="10" weightx="0.0" weighty="0.0" ipadx="60" ipady="10"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Unicode" size="14"/>
+          <text value="Campaigns"/>
+        </properties>
+      </component>
+      <component id="4b389" class="javax.swing.JButton" binding="vouchersButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="10" bottom="200" right="40" weightx="0.0" weighty="0.0" ipady="10"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Unicode" size="14"/>
+          <text value="Vouchers"/>
+        </properties>
+      </component>
+      <component id="68a6c" class="javax.swing.JButton" binding="notificationsButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="10" bottom="200" right="10" weightx="0.0" weighty="0.0" ipadx="60" ipady="10"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Unicode" size="14"/>
+          <text value="Notifications"/>
+        </properties>
+      </component>
+      <component id="166dd" class="javax.swing.JButton" binding="backButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="150" bottom="120" right="40" weightx="0.0" weighty="0.0" ipady="10"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Unicode" size="14"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

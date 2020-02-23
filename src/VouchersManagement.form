@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="VouchersManagement">
+  <grid id="27dc6" binding="vouchersPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="126" y="127" width="960" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-14402239"/>
+      <minimumSize width="960" height="720"/>
+      <preferredSize width="960" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="2fa87" binding="vouchersPane">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <font size="14"/>
+          <foreground color="-4517105"/>
+          <opaque value="true"/>
+          <preferredSize width="960" height="720"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="e644d" binding="showVouchersPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Show vouchers"/>
+            </constraints>
+            <properties>
+              <background color="-14402239"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="693f8" class="javax.swing.JTable" binding="vouchersTable">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-14402239"/>
+                  <font name="Lucida Sans Unicode" size="15"/>
+                  <foreground color="-1"/>
+                  <gridColor color="-4517105"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2ccfc" binding="generateVoucherPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Generate voucher"/>
+            </constraints>
+            <properties>
+              <background color="-14402239"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ab5ff" class="javax.swing.JLabel" binding="insertVoucherLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="30" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Insert voucher details:"/>
+                </properties>
+              </component>
+              <component id="d9605" class="javax.swing.JLabel" binding="campaignIdL">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Campaign ID:"/>
+                </properties>
+              </component>
+              <component id="6122b" class="javax.swing.JTextField" binding="cIDTF">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="ffa9d" class="javax.swing.JButton" binding="generateVoucherButton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="40" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <text value="Generate voucher"/>
+                </properties>
+              </component>
+              <component id="70a64" class="javax.swing.JLabel" binding="userEmailL">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Email:"/>
+                </properties>
+              </component>
+              <component id="5fcc1" class="javax.swing.JLabel" binding="voucherTypeL">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Voucher type:"/>
+                </properties>
+              </component>
+              <component id="12013" class="javax.swing.JLabel" binding="valueL">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Value:"/>
+                </properties>
+              </component>
+              <component id="f99ae" class="javax.swing.JTextField" binding="emailTF">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="c8ee0" class="javax.swing.JTextField" binding="voucherTypeTF">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="d6c3c" class="javax.swing.JTextField" binding="voucherValueTF">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+              <component id="6c6cd" class="javax.swing.JButton" binding="generateVouchersButton">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <text value="Generate vouchers"/>
+                </properties>
+              </component>
+              <component id="4a86e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Campaign ID:"/>
+                </properties>
+              </component>
+              <component id="44b55" class="javax.swing.JTextField" binding="generateVouchersTF">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="20" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ca504" binding="searchVoucherPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Search voucher"/>
+            </constraints>
+            <properties>
+              <background color="-14402239"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e2ab0" class="javax.swing.JLabel" binding="insertVoucherCodeLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="30" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Insert voucher code:"/>
+                </properties>
+              </component>
+              <component id="231fa" class="javax.swing.JTextField" binding="voucherCodeTF">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="30" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="167bd" class="javax.swing.JButton" binding="findVoucherButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="50" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <text value="Find voucher"/>
+                </properties>
+              </component>
+              <component id="e0266" class="javax.swing.JLabel" binding="campaignIdLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Voucher ID:"/>
+                </properties>
+              </component>
+              <component id="ba207" class="javax.swing.JTextField" binding="voucherIdTF">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="87647" class="javax.swing.JLabel" binding="campaignIDLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Campaign ID:"/>
+                </properties>
+              </component>
+              <component id="638f5" class="javax.swing.JLabel" binding="userEmailLabel">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="User email:"/>
+                </properties>
+              </component>
+              <component id="25dd1" class="javax.swing.JLabel" binding="voucherStatusLabel">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Voucher status:"/>
+                </properties>
+              </component>
+              <component id="d8e7" class="javax.swing.JLabel" binding="dateUserPanel">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-1"/>
+                  <text value="Date used:"/>
+                </properties>
+              </component>
+              <component id="96e1a" class="javax.swing.JTextField" binding="campaignIDTF">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="2e5c7" class="javax.swing.JTextField" binding="userEmailTF">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="e94c9" class="javax.swing.JTextField" binding="voucherStatusTF">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="91daa" class="javax.swing.JTextField" binding="dateUsedTF">
+                <constraints>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <foreground color="-4517105"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="73ca6" class="javax.swing.JButton" binding="redeemVoucherButton">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="40" left="0" bottom="50" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="14"/>
+                  <text value="Redeem voucher"/>
+                </properties>
+              </component>
+              <component id="652dc" class="javax.swing.JLabel" binding="voucherExistsLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <foreground color="-4517105"/>
+                  <text value="Voucher not found"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b1b31" binding="backPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Back"/>
+            </constraints>
+            <properties>
+              <background color="-14402239"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d4f25" class="javax.swing.JButton" binding="goBackButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0" ipadx="120" ipady="80"/>
+                </constraints>
+                <properties>
+                  <font name="Lucida Sans Unicode" size="24"/>
+                  <text value="Go back"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

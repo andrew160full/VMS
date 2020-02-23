@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="LoginMenu">
+  <grid id="27dc6" binding="panel1" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="118" y="117" width="666" height="480"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <background color="-14402239"/>
+      <enabled value="true"/>
+      <maximumSize width="1920" height="1080"/>
+      <minimumSize width="640" height="480"/>
+      <opaque value="true"/>
+      <preferredSize width="640" height="480"/>
+    </properties>
+    <border type="none">
+      <font/>
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="28e0d" class="javax.swing.JLabel" binding="filesLoadedLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="30" right="0" weightx="0.0" weighty="0.0" ipady="10"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <foreground color="-196780"/>
+          <text value="Files loaded successfully"/>
+        </properties>
+      </component>
+      <component id="5018c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="2" right="0" weightx="0.0" weighty="0.0" ipady="10"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <foreground color="-1"/>
+          <text value="Username:"/>
+        </properties>
+      </component>
+      <component id="29d1e" class="javax.swing.JButton" binding="loadButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="40" ipady="10"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <doubleBuffered value="false"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Unicode" size="14"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <iconTextGap value="4"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <requestFocusEnabled value="true"/>
+          <selected value="false"/>
+          <text value="Load files"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="1dfaa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="2" right="0" weightx="0.0" weighty="0.0" ipady="10"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <foreground color="-1"/>
+          <text value="Password:"/>
+        </properties>
+      </component>
+      <component id="5c311" class="javax.swing.JPasswordField" binding="passwordField">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0" ipady="10"/>
+        </constraints>
+        <properties>
+          <echoChar value="*"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fc62d" class="javax.swing.JTextField" binding="userField">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0" ipady="10"/>
+        </constraints>
+        <properties>
+          <focusAccelerator value="0"/>
+          <font name="Georgia" size="14"/>
+          <name value=""/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c659c" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+          <minimumSize width="1" height="1"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="a3b35" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+          <minimumSize width="1" height="1"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="a09d3" class="javax.swing.JButton" binding="loginButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="40"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <doubleBuffered value="false"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Unicode" size="14"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <iconTextGap value="4"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <requestFocusEnabled value="true"/>
+          <selected value="false"/>
+          <text value="Login"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="82802" class="javax.swing.JLabel" binding="invalidLoginLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font size="12"/>
+          <foreground color="-4517105"/>
+          <text value="Invalid username/password"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
